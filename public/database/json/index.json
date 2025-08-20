@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/", "active": true },
+        { "text": "Products", "url": "/products", "active": false },
+        { "text": "Blog", "url": "/blog", "active": false },
+        { "text": "About", "url": "/company/about", "active": false }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "Welcome to AI CMS",
+      "subtitle": "The future of content management powered by artificial intelligence",
+      "description": "Create, manage, and optimize your content with our intelligent CMS platform. No coding required.",
+      "primaryButton": {
+        "text": "Get Started",
+        "url": "/signup",
+        "className": "bg-blue-600 hover:bg-blue-700 text-white"
+      },
+      "secondaryButton": {
+        "text": "Learn More",
+        "url": "/company/about",
+        "className": "border border-blue-600 text-blue-600 hover:bg-blue-50"
+      },
+      "backgroundImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "type": "ProductGrid",
+      "title": "Our Products",
+      "description": "Discover our suite of AI-powered tools designed to streamline your content workflow.",
+      "products": [
+        {
+          "id": 1,
+          "name": "AI Writer",
+          "description": "Generate high-quality content with our advanced AI writing assistant.",
+          "price": "$29/month",
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["SEO Optimization", "Multiple Languages", "Plagiarism Check"]
+        },
+        {
+          "id": 2,
+          "name": "Smart Analytics",
+          "description": "Get insights into your content performance with AI-driven analytics.",
+          "price": "$49/month",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Real-time Data", "Predictive Analysis", "Custom Reports"]
+        },
+        {
+          "id": 3,
+          "name": "Auto Publisher",
+          "description": "Schedule and publish content across multiple platforms automatically.",
+          "price": "$39/month",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Multi-Platform", "Smart Scheduling", "Social Media Integration"]
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "title": "What Our Customers Say",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Alex Johnson",
+          "role": "Marketing Director",
+          "company": "TechStart Inc.",
+          "content": "AI CMS has revolutionized how we create content. Our productivity increased by 300% in just two months.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "name": "Sarah Mitchell",
+          "role": "Content Manager",
+          "company": "Creative Agency",
+          "content": "The AI writing assistant is incredible. It understands our brand voice and creates content that resonates with our audience.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b1c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "type": "Newsletter",
+      "title": "Stay Updated",
+      "description": "Get the latest news and updates about AI CMS delivered to your inbox.",
+      "placeholder": "Enter your email address",
+      "buttonText": "Subscribe",
+      "successMessage": "Thank you for subscribing! Check your email for confirmation."
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS. Built with React and Tailwind CSS.",
+      "backgroundColor": "bg-gray-800",
+      "textColor": "text-white",
+      "links": [
+        { "text": "Privacy Policy", "url": "/privacy" },
+        { "text": "Terms of Service", "url": "/terms" },
+        { "text": "Support", "url": "/support" }
+      ]
+    }
+  ]
+}

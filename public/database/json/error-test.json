@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "type": "Hero",
+      "title": "Error Testing",
+      "subtitle": "Test different error scenarios",
+      "backgroundImage": "/images/test-bg.jpg"
+    },
+    {
+      "type": "Section",
+      "content": "This is a test page to demonstrate different error handling scenarios."
+    }
+  ]
+}

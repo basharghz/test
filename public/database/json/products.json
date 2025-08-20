@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/", "active": false },
+        { "text": "Products", "url": "/products", "active": true },
+        { "text": "Blog", "url": "/blog", "active": false },
+        { "text": "About", "url": "/company/about", "active": false }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "Our Products",
+      "subtitle": "Discover our suite of AI-powered tools",
+      "description": "Transform your content workflow with our intelligent products designed for modern businesses."
+    },
+    {
+      "type": "ProductGrid",
+      "title": "AI-Powered Solutions",
+      "description": "Choose from our range of products designed to streamline your content management process.",
+      "products": [
+        {
+          "id": 1,
+          "name": "AI Writer Pro",
+          "description": "Advanced AI writing assistant with SEO optimization, multi-language support, and brand voice training.",
+          "price": "$49/month",
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Advanced SEO", "50+ Languages", "Brand Voice Training", "Plagiarism Detection", "API Access"]
+        },
+        {
+          "id": 2,
+          "name": "Smart Analytics Dashboard",
+          "description": "Comprehensive analytics platform with predictive insights and automated reporting.",
+          "price": "$79/month",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Real-time Tracking", "Predictive Analytics", "Custom Dashboards", "Automated Reports", "Team Collaboration"]
+        },
+        {
+          "id": 3,
+          "name": "Auto Publisher Suite",
+          "description": "Automated content publishing across multiple platforms with smart scheduling.",
+          "price": "$59/month",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Multi-Platform Publishing", "Smart Scheduling", "Content Optimization", "Performance Tracking", "Social Media Management"]
+        },
+        {
+          "id": 4,
+          "name": "Enterprise CMS",
+          "description": "Full-featured content management system with AI-powered workflows and team collaboration.",
+          "price": "Custom",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Unlimited Users", "Custom Workflows", "Advanced Security", "24/7 Support", "White Label Option"]
+        },
+        {
+          "id": 5,
+          "name": "AI Content Optimizer",
+          "description": "Optimize existing content for better performance with AI-powered suggestions.",
+          "price": "$39/month",
+          "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Content Analysis", "SEO Recommendations", "Readability Scoring", "Keyword Optimization", "Performance Tracking"]
+        },
+        {
+          "id": 6,
+          "name": "Voice & Tone Analyzer",
+          "description": "Ensure consistent brand voice across all content with AI-powered analysis.",
+          "price": "$29/month",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Brand Voice Training", "Tone Analysis", "Style Consistency", "Team Guidelines", "Real-time Feedback"]
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "title": "Trusted by Leading Companies",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Michael Chen",
+          "role": "Head of Marketing",
+          "company": "TechFlow Solutions",
+          "content": "The AI Writer Pro has transformed our content creation process. We're producing 5x more content with better quality.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "name": "Lisa Rodriguez",
+          "role": "Content Director",
+          "company": "Digital Innovations Inc.",
+          "content": "The analytics dashboard gives us insights we never had before. Our content performance has improved dramatically.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b1c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS. Built with React and Tailwind CSS."
+    }
+  ]
+}

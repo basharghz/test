@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "type": "Hero",
+      "title": "Component Error Test Page",
+      "subtitle": "Testing error handling for missing components"
+    },
+    {
+      "type": "InvalidComponent",
+      "content": "This component doesn't exist and should show an error"
+    },
+    {
+      "type": "Section",
+      "content": "Another valid component after the error"
+    },
+    {
+      "type": "Hero",
+      "title": "Our Products",
+      "subtitle": "Discover our suite of AI-powered tools",
+      "description": "Transform your content workflow with our intelligent products designed for modern businesses."
+    }
+  ]
+}

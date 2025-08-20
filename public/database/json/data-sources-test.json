@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "Data Sources Test", "url": "/data-sources-test", "active": true }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "Data Sources Test",
+      "subtitle": "Testing unified data service manager",
+      "backgroundImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop"
+    },
+    {
+      "type": "Section",
+      "content": "This is a test page to verify that the data service manager is working correctly with priority fallbacks."
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 Data Service Manager Test"
+    }
+  ]
+}

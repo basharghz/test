@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/", "active": false },
+        { "text": "Products", "url": "/products", "active": false },
+        { "text": "Blog", "url": "/blog", "active": true },
+        { "text": "About", "url": "/company/about", "active": false }
+      ]
+    },
+    {
+      "type": "BlogHeader",
+      "title": "AI CMS Blog",
+      "subtitle": "Insights, tips, and news from the world of AI-powered content management",
+      "description": "Stay updated with the latest trends in artificial intelligence, content strategy, and digital marketing."
+    },
+    {
+      "type": "BlogGrid",
+      "title": "Latest Posts",
+      "posts": [
+        {
+          "id": 1,
+          "title": "The Future of Content Creation: How AI is Revolutionizing Digital Marketing",
+          "excerpt": "Discover how artificial intelligence is transforming the way businesses create, optimize, and distribute content in 2025.",
+          "author": "Sarah Chen",
+          "date": "2025-01-15",
+          "readTime": "8 min read",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "AI & Technology",
+          "slug": "future-of-content-creation-ai"
+        },
+        {
+          "id": 2,
+          "title": "10 Best Practices for SEO-Optimized Content in 2025",
+          "excerpt": "Learn the latest SEO strategies and how to create content that ranks well in search engines while providing value to your audience.",
+          "author": "Marcus Rodriguez",
+          "date": "2025-01-12",
+          "readTime": "6 min read",
+          "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "SEO & Strategy",
+          "slug": "seo-best-practices-2025"
+        },
+        {
+          "id": 3,
+          "title": "Building a Consistent Brand Voice with AI Tools",
+          "excerpt": "Maintain your brand's unique voice across all content channels using AI-powered writing assistants and style guides.",
+          "author": "Emily Zhang",
+          "date": "2025-01-10",
+          "readTime": "5 min read",
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "Brand Strategy",
+          "slug": "consistent-brand-voice-ai"
+        },
+        {
+          "id": 4,
+          "title": "Data-Driven Content Strategy: Making Decisions with Analytics",
+          "excerpt": "Learn how to use content analytics and AI insights to create more effective content strategies that drive results.",
+          "author": "David Kim",
+          "date": "2025-01-08",
+          "readTime": "7 min read",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "Analytics",
+          "slug": "data-driven-content-strategy"
+        },
+        {
+          "id": 5,
+          "title": "Automating Your Content Workflow: A Complete Guide",
+          "excerpt": "Streamline your content creation process with automation tools and AI-powered workflows that save time and improve quality.",
+          "author": "Sarah Chen",
+          "date": "2025-01-05",
+          "readTime": "9 min read",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "Automation",
+          "slug": "automating-content-workflow"
+        },
+        {
+          "id": 6,
+          "title": "The Rise of Personalized Content: AI-Powered Personalization",
+          "excerpt": "Explore how AI enables personalized content experiences that increase engagement and conversion rates.",
+          "author": "Marcus Rodriguez",
+          "date": "2025-01-03",
+          "readTime": "6 min read",
+          "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "category": "Personalization",
+          "slug": "ai-powered-personalization"
+        }
+      ]
+    },
+    {
+      "type": "Newsletter",
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get weekly insights about AI, content strategy, and digital marketing delivered to your inbox.",
+      "placeholder": "Enter your email address",
+      "buttonText": "Subscribe Now",
+      "successMessage": "Thank you for subscribing! You'll receive our next newsletter soon."
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS. Built with React and Tailwind CSS."
+    }
+  ]
+}

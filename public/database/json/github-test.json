@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "GitHub Test", "url": "/github-test", "active": true }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "GitHub Connection Test",
+      "subtitle": "This page is loaded from GitHub repository",
+      "backgroundImage": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1200&h=600&fit=crop",
+      "ctaText": "Back to Home",
+      "ctaUrl": "/"
+    },
+    {
+      "type": "GitHubStatus"
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 Loaded from GitHub Repository"
+    }
+  ]
+}

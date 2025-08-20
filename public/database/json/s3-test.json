@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "S3 Test", "url": "/s3-test", "active": true }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "AWS S3 Connection Test",
+      "subtitle": "This page is loaded from AWS S3 bucket",
+      "backgroundImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop",
+      "ctaText": "Back to Home",
+      "ctaUrl": "/"
+    },
+    {
+      "type": "S3Status"
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 Loaded from AWS S3 Bucket"
+    }
+  ]
+}

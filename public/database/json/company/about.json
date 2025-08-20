@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/", "active": false },
+        { "text": "Products", "url": "/products", "active": false },
+        { "text": "Blog", "url": "/blog", "active": false },
+        { "text": "About", "url": "/company/about", "active": true }
+      ],
+      "authButtons": {
+        "loginText": "Login",
+        "loginClass": "bg-blue-600 text-white hover:bg-blue-700",
+        "logoutText": "Logout",
+        "logoutClass": "bg-red-600 text-white hover:bg-red-700"
+      }
+    },
+    {
+      "type": "AboutHero",
+      "title": "About AI CMS",
+      "mission": "To revolutionize content management through artificial intelligence, making it easier for businesses to create, manage, and optimize their digital presence.",
+      "vision": "A world where content creation is seamless, intelligent, and accessible to everyone, regardless of technical expertise.",
+      "established": "2024",
+      "employees": "50+",
+      "countries": "15+"
+    },
+    {
+      "type": "TeamGrid",
+      "title": "Meet Our Team",
+      "description": "Our diverse team of experts brings together decades of experience in AI, software development, and digital marketing.",
+      "members": [
+        {
+          "id": 1,
+          "name": "Sarah Chen",
+          "role": "CEO & Co-Founder",
+          "bio": "Former Google AI researcher with 10+ years in machine learning and product development.",
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "linkedin": "https://linkedin.com/in/sarahchen",
+          "twitter": "https://twitter.com/sarahchen"
+        },
+        {
+          "id": 2,
+          "name": "Marcus Rodriguez",
+          "role": "CTO & Co-Founder",
+          "bio": "Full-stack architect who previously led engineering teams at Microsoft and Spotify.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "linkedin": "https://linkedin.com/in/marcusrodriguez",
+          "github": "https://github.com/marcusrod"
+        },
+        {
+          "id": 3,
+          "name": "Emily Zhang",
+          "role": "Head of Design",
+          "bio": "Award-winning UX designer passionate about creating intuitive interfaces for complex AI systems.",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "linkedin": "https://linkedin.com/in/emilyzhang",
+          "dribbble": "https://dribbble.com/emilyzhang"
+        },
+        {
+          "id": 4,
+          "name": "David Kim",
+          "role": "Lead AI Engineer",
+          "bio": "PhD in Computer Science specializing in natural language processing and machine learning algorithms.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "linkedin": "https://linkedin.com/in/davidkim",
+          "github": "https://github.com/davidkim"
+        }
+      ]
+    },
+    {
+      "type": "ContactForm",
+      "title": "Get in Touch",
+      "description": "Have questions about AI CMS? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+      "successMessage": "Thank you for your message! We'll get back to you within 24 hours.",
+      "submitText": "Send Message",
+      "fields": [
+        {
+          "name": "firstName",
+          "label": "First Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter your first name"
+        },
+        {
+          "name": "lastName",
+          "label": "Last Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter your last name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter your email address"
+        },
+        {
+          "name": "company",
+          "label": "Company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter your company name"
+        },
+        {
+          "name": "subject",
+          "label": "Subject",
+          "type": "text",
+          "required": true,
+          "placeholder": "What's this about?"
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Tell us more about your inquiry...",
+          "rows": 5
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS. Built with React and Tailwind CSS.",
+      "backgroundColor": "bg-gray-800",
+      "textColor": "text-white",
+      "links": [
+        { "text": "Privacy Policy", "url": "/privacy" },
+        { "text": "Terms of Service", "url": "/terms" },
+        { "text": "Support", "url": "/support" }
+      ],
+      "socialLinks": [
+        { "text": "Twitter", "url": "https://twitter.com/aicms" },
+        { "text": "LinkedIn", "url": "https://linkedin.com/company/aicms" },
+        { "text": "GitHub", "url": "https://github.com/aicms" }
+      ]
+    }
+  ]
+}

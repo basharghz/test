@@ -1,0 +1,19 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "Data Sources", "url": "/data-sources", "active": true }
+      ]
+    },
+    {
+      "type": "DataSourcesStatus"
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS - Multi-Source Data Integration"
+    }
+  ]
+}

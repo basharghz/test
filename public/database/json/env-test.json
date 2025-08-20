@@ -1,0 +1,21 @@
+{
+  "components": [
+    {
+      "type": "Hero",
+      "title": "Environment Test",
+      "subtitle": "Testing development vs production error handling"
+    },
+    {
+      "type": "Section",
+      "content": "In development mode, you'll see detailed component errors. In production mode, you'll see a clean 500 error page."
+    },
+    {
+      "type": "NonExistentComponent",
+      "message": "This component doesn't exist!"
+    },
+    {
+      "type": "Section",
+      "content": "This section should still render normally after the error (in development mode only)."
+    }
+  ]
+}

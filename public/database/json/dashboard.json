@@ -1,0 +1,48 @@
+{
+  "components": [
+    {
+      "type": "Navigation",
+      "logo": "AI CMS",
+      "links": [
+        { "text": "Home", "url": "/", "active": false },
+        { "text": "Products", "url": "/products", "active": false },
+        { "text": "Blog", "url": "/blog", "active": false },
+        { "text": "About", "url": "/company/about", "active": false },
+        { "text": "Dashboard", "url": "/dashboard", "active": true }
+      ]
+    },
+    {
+      "type": "Hero",
+      "title": "Welcome to Your Dashboard",
+      "subtitle": "Manage your content and track your performance",
+      "description": "Access all your AI CMS tools and analytics from one centralized dashboard."
+    },
+    {
+      "type": "ProductGrid",
+      "title": "Your Active Tools",
+      "description": "Quick access to your subscribed AI CMS products and services.",
+      "products": [
+        {
+          "id": 1,
+          "name": "AI Writer Pro",
+          "description": "Your active subscription - Create content with advanced AI assistance.",
+          "price": "Active",
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Generate Content", "SEO Optimization", "Brand Voice", "Analytics"]
+        },
+        {
+          "id": 2,
+          "name": "Smart Analytics",
+          "description": "View detailed insights about your content performance.",
+          "price": "Active",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+          "features": ["Performance Metrics", "Engagement Data", "SEO Insights", "Reports"]
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "copyright": "© 2025 AI CMS. Built with React and Tailwind CSS."
+    }
+  ]
+}

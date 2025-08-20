@@ -1,0 +1,20 @@
+{
+  "components": [
+    {
+      "type": "Hero",
+      "title": "Multi-Language Error Testing",
+      "subtitle": "Test error messages in different languages"
+    },
+    {
+      "type": "LanguageSelector"
+    },
+    {
+      "type": "Section",
+      "content": "Try the language selector above, then visit /nonexistent-page to see error messages in your selected language."
+    },
+    {
+      "type": "InvalidComponent",
+      "message": "This will trigger an error in the selected language!"
+    }
+  ]
+}
