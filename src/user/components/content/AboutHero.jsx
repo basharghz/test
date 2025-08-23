@@ -39,3 +39,5 @@ const AboutHero = ({ title, mission, vision, established, employees, countries }
 )
 
 export default AboutHero
+
+
